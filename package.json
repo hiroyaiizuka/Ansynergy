@@ -38,18 +38,25 @@
     "@storybook/addon-a11y": "^5.0.11",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addon-storyshots": "^5.0.11",
     "@storybook/react": "^5.0.11",
     "@types/storybook__addon-a11y": "^5.0.0",
     "@types/storybook__addon-actions": "^3.4.2",
     "@types/storybook__addon-info": "^4.1.1",
+    "@types/storybook__addon-links": "^3.3.4",
+    "@types/storybook__addon-storyshots": "^4.0.0",
     "@types/storybook__react": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "awesome-typescript-loader": "^5.2.1",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "8.0.5",
+    "babel-plugin-macros": "^2.5.1",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
     "react-docgen-typescript-loader": "^3.1.0",
-    "react-docgen-typescript-webpack-plugin": "^1.1.0"
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-test-renderer": "^16.8.6",
+    "require-context.macro": "^1.0.4"
   }
 }
