@@ -59,10 +59,5 @@
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "react-test-renderer": "^16.8.6",
     "require-context.macro": "^1.0.4"
-  },
-  "proxy": {
-    "/users/*": {
-      "target": "http://localhost:3001"
-    }
   }
 }
